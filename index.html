@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="style.css"></script>
+    <title>To-Do_List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="mid">
+
+            <div class="heading">
+                <h2>To-Do-List</h2>
+                <img src="images/images/icon.png" alt="" id="img">
+            </div>
+            <div class="taskbar">
+                <input type="text" placeholder="Write your task" id="box">
+                <button type="submit" onclick="addTask()">Add</button>
+            </div>
+            <div class="tasks">
+                    <ul id="taskList">
     
+                    </ul>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
